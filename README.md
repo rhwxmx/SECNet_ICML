@@ -65,11 +65,11 @@ For DHP19, please refer https://github.com/MasterHow/EventPointPose to prepare p
 ### Citation
 If you find our work useful in your research, please consider citing:
 
-        @article{ren2024frequency,
-        title={Frequency-aware Event Cloud Network},
-        author={Ren, Hongwei and Ma, Fei and Lin, Xiaopeng and Fang, Yuetong and Huang, Hongxiang and Huang, Yulong and Zhou, Yue and Fu, Haotian and Yang, Ziyi and Yu, Fei Richard and others},
-        journal={arXiv preprint arXiv:2412.20803},
-        year={2024}
+        @inproceedings{ren2026scalable,
+          title={Scalable Event Cloud Network for Event-based Classification},
+          author={Ren, Hongwei and Ma, Fei and Fang, Yuetong and Huang, Hongxiang and Zhou, Yue and Huang, Yulong and FU, Haotian and Yang, Ziyi and Jiang, Youxin and Wu, Xiangqian and others},
+          booktitle={Forty-third International Conference on Machine Learning},
+          year={2026}
         }
 
 and this paper is related to our previous three works [EventMamba](https://arxiv.org/abs/2405.06116), [TTPOINT](https://dl.acm.org/doi/abs/10.1145/3581783.3612258?casa_token=z72pohcxZTAAAAAA:pO42EmMVOEp-8PJPx4WBUwJyjrs-K2Z7lkWbZsanCTF72u763LuxdWNPYAXuTKUT4g82yPgPgLbLH6I) and [PEPNet](https://openaccess.thecvf.com/content/CVPR2024/html/Ren_A_Simple_and_Effective_Point-based_Network_for_Event_Camera_6-DOFs_CVPR_2024_paper.html):
