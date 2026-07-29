@@ -1,6 +1,6 @@
 
 ## [Scalable Event Cloud Network for Visual Recognition](https://arxiv.org/abs/2412.20803)
-We are collaborating with Beihang University on FPGA hardware development. The relevant code will be released upon completion of this work.
+
 <img src="SECNet.png" alt="SECNet's architecture" width="800" />
 
 <span><img src="./gif/sub13_session3_mov4_3D.gif" alt="sample1" width="200" /></span>
@@ -45,17 +45,31 @@ We are collaborating with Beihang University on FPGA hardware development. The r
 | THU-E-ACT              | 8192      | 64 | 1024 | 0.9725    |
 | DHP19              | 4096      | 64 | 512 | 6.11/69.89    |
 
+### Download
+
+| Dataset    | Split    | Processed Data |
+| ---------- | -------- | -------- |
+| N-MNIST | offical  |  [DOWNLOAD](https://pan.baidu.com/s/1SjqO_LWoiInhmQt_sbdJGQ?pwd=DVSG)|
+| N-CARS    | offical | [DOWNLOAD](https://pan.baidu.com/s/1SaMAmesC8YCUroVUdHcimQ?pwd=DVSG)|
+| CIFAR10-DVS  | filename  |  [DOWNLOAD](https://pan.baidu.com/s/1Mii9BZlZf-EqUOogcXJZqA?pwd=5dp1)  |
+| N-Caltech101    | filename    | [DOWNLOAD](https://pan.baidu.com/s/1plQ7YyjxYRq14wWvrZu10Q?pwd=u6m1)|
+| ASL-DVS     | filename    | [DOWNLOAD](https://pan.baidu.com/s/16LJmiED7ISiMNr0eS-KknA?pwd=ca96)   |
+| DVSGesture     | offical     | [DOWNLOAD](https://pan.baidu.com/s/1zKfIAiPdjFEfq_JHdJN39Q?pwd=DVSG)|
+| DailyDVS        |  filename   | [DOWNLOAD](https://pan.baidu.com/s/1HOS4L13d8iC0K_8mc0c5xw?pwd=DVSG)|
+| UCF101-DVS       | filename     |[DOWNLOAD](https://pan.baidu.com/s/1CuwZzJNsFupnv5X7Q5JqFA?pwd=DVSG)|
+| THU-E-ACT        | offical     | [DOWNLOAD](https://pan.baidu.com/s/1LJZekxP3joI-Y2jY5Uuy3A?pwd=DVSG) |
+| DHP19 | offical     |   [DOWNLOAD](https://pan.baidu.com/s/1esEUjGwgbw-aGPmW1BDVkA?pwd=DVSG)|
+
+For DHP19, please refer https://github.com/MasterHow/EventPointPose to prepare processed dataset. For CIFAR10-DVS and N-Caltech101, we first train SECNet on single sliding window, then train a simple classifier to get the results cross a sample.
 
 ### Citation
 If you find our work useful in your research, please consider citing:
 
-        @inproceedings{
-        anonymous2026scalable,
-        title={Scalable Event Cloud Network for Event-based Classification},
-        author={Anonymous},
-        booktitle={Forty-third International Conference on Machine Learning},
-        year={2026},
-        url={https://openreview.net/forum?id=yAAUcDLYMR}
+        @article{ren2024frequency,
+        title={Frequency-aware Event Cloud Network},
+        author={Ren, Hongwei and Ma, Fei and Lin, Xiaopeng and Fang, Yuetong and Huang, Hongxiang and Huang, Yulong and Zhou, Yue and Fu, Haotian and Yang, Ziyi and Yu, Fei Richard and others},
+        journal={arXiv preprint arXiv:2412.20803},
+        year={2024}
         }
 
 and this paper is related to our previous three works [EventMamba](https://arxiv.org/abs/2405.06116), [TTPOINT](https://dl.acm.org/doi/abs/10.1145/3581783.3612258?casa_token=z72pohcxZTAAAAAA:pO42EmMVOEp-8PJPx4WBUwJyjrs-K2Z7lkWbZsanCTF72u763LuxdWNPYAXuTKUT4g82yPgPgLbLH6I) and [PEPNet](https://openaccess.thecvf.com/content/CVPR2024/html/Ren_A_Simple_and_Effective_Point-based_Network_for_Event_Camera_6-DOFs_CVPR_2024_paper.html):
